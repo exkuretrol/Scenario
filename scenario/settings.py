@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hello.apps.HelloConfig',
-    'todo'
+    'todo',
+    'pages.apps.PagesConfig'
 ]
 
 MIDDLEWARE = [
